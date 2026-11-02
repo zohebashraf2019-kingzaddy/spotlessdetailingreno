@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/ceramic-coating-reno", "destination": "/services#ceramic-coating", "permanent": true },
+    { "source": "/paint-correction-reno", "destination": "/services#paint-correction", "permanent": true },
+    { "source": "/interior-detailing-reno", "destination": "/services#interior", "permanent": true },
+    { "source": "/pricing", "destination": "/services#pricing", "permanent": false },
+    { "source": "/join", "destination": "/car-club", "permanent": false }
+  ],
+  "headers": [
+    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] }
+  ]
+}
